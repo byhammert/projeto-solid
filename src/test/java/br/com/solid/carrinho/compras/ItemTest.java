@@ -55,7 +55,7 @@ public class ItemTest {
 		
 	}
 	
-	private AbstractThrowableAssert<?, ?> assertInvalid(String descricao, Money valor, String mensagemEsperada) {
+	private AbstractThrowableAssert<?, ?> assertInvalid(final String descricao, final Money valor, final String mensagemEsperada) {
 		return assertThatThrownBy(() -> {
 			new Item(descricao, valor);
 		})
