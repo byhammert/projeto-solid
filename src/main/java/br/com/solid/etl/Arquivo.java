@@ -16,7 +16,6 @@ public abstract class Arquivo {
 	public Dado getDado(final String nome, final String cpf, final String email) {
 		final Dado dado = new Dado(nome.trim(), cpf.trim(), email);
 		return dado;
-		
 	}
 
 }

@@ -23,4 +23,6 @@ public class Quadrado extends Forma {
 		return largura;
 	}
 	
+	
+	
 }
